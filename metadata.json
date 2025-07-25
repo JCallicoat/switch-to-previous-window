@@ -1,0 +1,17 @@
+{
+    "KPackageStructure": "KWin/Script",
+    "KPlugin": {
+        "Authors": [
+            {
+                "Email": "jordan.callicoat@gmail.com",
+                "Name": "Jordan Callicoat"
+            }
+        ],
+        "Description": "Adds a shortcut to switch to the previous window",
+        "Icon": "preferences-system-windows-script-test",
+        "Id": "switch-to-previous-window",
+        "License": "GPL",
+        "Name": "Switch to previous window"
+    },
+    "X-Plasma-API": "javascript"
+}
