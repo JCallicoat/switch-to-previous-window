@@ -13,7 +13,7 @@ class SwitchToPreviousVirtualWindowShortcut {
                 if (this.previousWindows.length == 0) {
                     this.previousWindows.push(window);
                 } else if (this.previousWindows[1] != window) {
-                    if (this.previousWindows[1] != undefined) {
+                    if (this.previousWindows.length > 1) {
                         this.previousWindows[0] = this.previousWindows[1];
                     }
                     this.previousWindows[1] = window;
